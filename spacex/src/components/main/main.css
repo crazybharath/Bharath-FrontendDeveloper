@@ -43,13 +43,14 @@
     transition: .2s;
 }
 .popup{
-    width: 50%;
-    height: auto;
+    width: 50% !important;
+    height: auto !important;
     background-color: white;
+    position: absolute;
     top: 25%;
     right: 25%;
     border-radius: 10px;
-    background: #d3d1d1 !important;
+    background: skyblue !important;
     border: none !important;
     box-shadow: 15px 20px 20px rgba(0, 0, 0, .3),
         inset 4px 4px 10px white;
@@ -68,4 +69,15 @@
 }
 .cancel{
     cursor: pointer;
+}
+.popup .card-body{
+    margin-left: 20px;
+}
+#page{
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 20px;
 }
