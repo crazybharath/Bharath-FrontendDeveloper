@@ -1,0 +1,71 @@
+.search {
+    width: 500px;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+#product {
+    background: #d3d1d1;
+    display: grid;
+    grid-template-columns: 1fr !important;
+    margin-top: 30px !important;
+}
+
+@media screen and (min-width: 480px) {
+    #product {
+        background: #d3d1d1;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr !important;
+        margin-top: 30px !important;
+    }
+}
+
+.card {
+    width: 250px !important;
+    height: 200px !important;
+    background: #d3d1d1 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, .3),
+        inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+    transition: .2s;
+}
+
+.card:hover {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .3),
+        inset -4px -4px 10px white;
+    transition: .2s;
+}
+.popup{
+    width: 50%;
+    height: auto;
+    background-color: white;
+    top: 25%;
+    right: 25%;
+    border-radius: 10px;
+    background: #d3d1d1 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, .3),
+        inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+    transition: .2s;
+}
+.popup-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 30px 0 15px;
+    border-bottom: 2px solid black;
+}
+.cancel{
+    cursor: pointer;
+}
